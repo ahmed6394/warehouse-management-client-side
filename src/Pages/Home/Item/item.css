@@ -1,0 +1,10 @@
+.item {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.item img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}

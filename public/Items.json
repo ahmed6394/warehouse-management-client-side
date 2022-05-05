@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "supplier": "Johny Heard",
+    "quanitty": "20",
+    "name": "iPhone_XR",
+    "price": "3500",
+    "description": "The iPhone XR is the least expensive device in Apple's twelfth generation of iPhones which also includes the iPhone XS and XS Max. Considered an 'affordable flagship' or 'budget flagship' at its release, the XR shares key internal hardware but with features removed/downgraded to reduce the price",
+    "img": "https://i.ibb.co/5FHhXyN/i-Phone-XR.jpg"
+  },
+  {
+    "id": 2,
+    "supplier": "Johny Heard",
+    "quanitty": "20",
+    "name": "iPhone 13 pro max",
+    "price": "1300",
+    "description": "The iPhone 13 Pro Max's design is mostly unchanged from its predecessor. However, the rear camera module now covers a larger area due to the larger lenses. The Face ID and camera module on the front display, or 'notch', is now 20% smaller than previous generations.",
+    "img": "https://i.ibb.co/khvJnW3/iphone-13-pro-max.jpg"
+  },
+  {
+    "id": 3,
+    "supplier": "Johny Heard",
+    "quanitty": "20",
+    "name": "iPhone 13 pro",
+    "price": "1100",
+    "description": "iPhone 13 Pro. The Face ID and camera module on the front display, or 'notch', is now 20% smaller than previous generations.. Huge camera upgrades. New OLED display with ProMotion. Fastest smartphone chip ever. Breakthrough battery life.",
+    "img": "https://i.ibb.co/KxJ6Pmn/iphone-13-pro.jpg"
+  },
+  {
+    "id": 4,
+    "supplier": "Johny Heard",
+    "quanitty": "20",
+    "name": "iPhone 13",
+    "price": "1000",
+    "description": "The iPhone 13 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).",
+    "img": "https://i.ibb.co/rvjpM7W/iphone-13.jpg"
+  },
+  {
+    "id": 5,
+    "supplier": "Johny Heard",
+    "quanitty": "20",
+    "name": "iPhone 12 pro max",
+    "price": "900",
+    "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone 12 pro has it all, in two great sizes.",
+    "img": "https://i.ibb.co/ZTvS02k/iphone-12.jpg"
+  },
+  {
+    "id": 6,
+    "supplier": "Johny Heard",
+    "quanitty": "20",
+    "name": "iPhone 12 ",
+    "price": "800",
+    "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone 12 has it all, in two great sizes.",
+    "img": "https://i.ibb.co/ZTvS02k/iphone-12.jpg"
+  }
+]
