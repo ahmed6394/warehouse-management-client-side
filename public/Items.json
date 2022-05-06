@@ -32,7 +32,7 @@
     "quanitty": "20",
     "name": "iPhone 13",
     "price": "1000",
-    "description": "The iPhone 13 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).",
+    "description": "The iPhone 13 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally.",
     "img": "https://i.ibb.co/rvjpM7W/iphone-13.jpg"
   },
   {
@@ -46,6 +46,24 @@
   },
   {
     "id": 6,
+    "supplier": "Johny Heard",
+    "quanitty": "20",
+    "name": "iPhone 12 ",
+    "price": "800",
+    "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone 12 has it all, in two great sizes.",
+    "img": "https://i.ibb.co/ZTvS02k/iphone-12.jpg"
+  },
+  {
+    "id": 7,
+    "supplier": "Johny Heard",
+    "quanitty": "20",
+    "name": "iPhone 12 ",
+    "price": "800",
+    "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone 12 has it all, in two great sizes.",
+    "img": "https://i.ibb.co/ZTvS02k/iphone-12.jpg"
+  },
+  {
+    "id": 8,
     "supplier": "Johny Heard",
     "quanitty": "20",
     "name": "iPhone 12 ",

@@ -7,7 +7,10 @@ import Home from "./Pages/Home/Home/Home";
 import About from "./Pages/About/About";
 import Inventory from "./Pages/Inventory/Inventory";
 import Contact from "./Pages/Contact/Contact";
-import Login from "./Pages/Login/Login";
+import Login from "./Pages/Login/Login/Login";
+import ItemDetail from "./Pages/ItemDetail/ItemDetail";
+import NotFound from "./Shared/NotFound/NotFound";
+import Signup from "./Pages/Login/SignUp/Signup";
 
 function App() {
   return (
@@ -17,8 +20,11 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/inventory" element={<Inventory></Inventory>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="item/:itemId" element={<ItemDetail></ItemDetail>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/signup" element={<Signup></Signup>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
