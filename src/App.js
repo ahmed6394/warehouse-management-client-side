@@ -14,6 +14,7 @@ import Signup from "./Pages/Login/SignUp/Signup";
 import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
 import ManageItem from "./Pages/ManageItem/ManageItem";
 import Manage from "./Pages/Manage/Manage";
+import Blog from "./Pages/Blog/Blog";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           }
         ></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="item/:itemId" element={<ItemDetail></ItemDetail>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
