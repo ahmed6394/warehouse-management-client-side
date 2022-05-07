@@ -12,6 +12,8 @@ import ItemDetail from "./Pages/ItemDetail/ItemDetail";
 import NotFound from "./Shared/NotFound/NotFound";
 import Signup from "./Pages/Login/SignUp/Signup";
 import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
+import ManageItem from "./Pages/ManageItem/ManageItem";
+import Manage from "./Pages/Manage/Manage";
 
 function App() {
   return (
@@ -25,6 +27,14 @@ function App() {
           element={
             <RequireAuth>
               <Inventory></Inventory>
+            </RequireAuth>
+          }
+        ></Route>
+        <Route
+          path="/manage"
+          element={
+            <RequireAuth>
+              <Manage></Manage>
             </RequireAuth>
           }
         ></Route>

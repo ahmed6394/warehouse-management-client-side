@@ -2,7 +2,7 @@
   {
     "id": 1,
     "supplier": "Johny Heard",
-    "quanitty": "20",
+    "quantity": "20",
     "name": "iPhone_XR",
     "price": "3500",
     "description": "The iPhone XR is the least expensive device in Apple's twelfth generation of iPhones which also includes the iPhone XS and XS Max. Considered an 'affordable flagship' or 'budget flagship' at its release, the XR shares key internal hardware but with features removed/downgraded to reduce the price",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "supplier": "Johny Heard",
-    "quanitty": "20",
+    "quantity": "20",
     "name": "iPhone 13 pro max",
     "price": "1300",
     "description": "The iPhone 13 Pro Max's design is mostly unchanged from its predecessor. However, the rear camera module now covers a larger area due to the larger lenses. The Face ID and camera module on the front display, or 'notch', is now 20% smaller than previous generations.",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "supplier": "Johny Heard",
-    "quanitty": "20",
+    "quantity": "20",
     "name": "iPhone 13 pro",
     "price": "1100",
     "description": "iPhone 13 Pro. The Face ID and camera module on the front display, or 'notch', is now 20% smaller than previous generations.. Huge camera upgrades. New OLED display with ProMotion. Fastest smartphone chip ever. Breakthrough battery life.",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "supplier": "Johny Heard",
-    "quanitty": "20",
+    "quantity": "20",
     "name": "iPhone 13",
     "price": "1000",
     "description": "The iPhone 13 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally.",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "supplier": "Johny Heard",
-    "quanitty": "20",
+    "quantity": "20",
     "name": "iPhone 12 pro max",
     "price": "900",
     "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone 12 pro has it all, in two great sizes.",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "supplier": "Johny Heard",
-    "quanitty": "20",
+    "quantity": "20",
     "name": "iPhone 12 ",
     "price": "800",
     "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone 12 has it all, in two great sizes.",
@@ -56,19 +56,19 @@
   {
     "id": 7,
     "supplier": "Johny Heard",
-    "quanitty": "20",
-    "name": "iPhone 12 ",
+    "quantity": "20",
+    "name": "iPhone SE ",
     "price": "800",
-    "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone 12 has it all, in two great sizes.",
-    "img": "https://i.ibb.co/ZTvS02k/iphone-12.jpg"
+    "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone SE has it all, in two great sizes.",
+    "img": "https://i.ibb.co/JdyLYT7/iphone-se.png"
   },
   {
     "id": 8,
     "supplier": "Johny Heard",
-    "quanitty": "20",
-    "name": "iPhone 12 ",
-    "price": "800",
-    "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone 12 has it all, in two great sizes.",
-    "img": "https://i.ibb.co/ZTvS02k/iphone-12.jpg"
+    "quantity": "20",
+    "name": "iPhone SE2 ",
+    "price": "850",
+    "description": "An extremely powerful chip. 5G speed. An advanced two-camera system. A Ceramic Shield front that's tougher than any smartphone glass. And a bright, stunning OLED display. The iPhone SE2 has it all, in two great sizes.",
+    "img": "https://i.ibb.co/kHKDLFP/iphone-se-2.png"
   }
 ]
