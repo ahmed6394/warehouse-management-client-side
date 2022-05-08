@@ -24,7 +24,7 @@ const Login = () => {
   const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
   if (user) {
-    // navigate("/home");
+    navigate("/home");
   }
 
   const handleSubmit = async (event) => {
