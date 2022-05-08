@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import useItems from "../../hooks/useItems";
 
 const ManageItem = ({ item }) => {
   const { _id, name, img, description, price, quantity, supplier } = item;
+  const [items, setItems] = useItems();
   const [delivered, setDelivered] = useState(0);
   const [reStored, setReStored] = useState(0);
   //   const [newQuantity, setNewQuantity] = useState(quantity);
@@ -22,6 +24,22 @@ const ManageItem = ({ item }) => {
   } else {
     finalQuantity = newQuantity;
   }
+
+  const handleRemove = (id) => {
+    const proceed = window.confirm("Are you sure?");
+    if (proceed) {
+      const url = `http://localhost:5000/item/${id}`;
+      fetch(url, {
+        method: "DELETE",
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          const remaining = items.filter((item) => item._id !== id);
+          setItems(remaining);
+        });
+    }
+  };
   return (
     <div className="item">
       <img className="w-100" src={img} alt="" />
@@ -41,7 +59,12 @@ const ManageItem = ({ item }) => {
       <button onClick={() => handleReStored(_id)} className="btn btn-dark mx-2">
         Restored
       </button>
-      <button className="btn btn-dark mx-2">Remove Item</button>
+      <button
+        className="btn btn-dark mx-2"
+        onClick={() => handleRemove(item._id)}
+      >
+        Remove Item
+      </button>
     </div>
   );
 };
