@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const ManageItem = ({ item }) => {
-  const { id, name, img, description, price, quantity, supplier } = item;
+  const { _id, name, img, description, price, quantity, supplier } = item;
   const [delivered, setDelivered] = useState(0);
   const [reStored, setReStored] = useState(0);
   //   const [newQuantity, setNewQuantity] = useState(quantity);
@@ -32,10 +32,13 @@ const ManageItem = ({ item }) => {
         <small className="p-2 m-2">{description}</small>
       </p>
       <p className="p-2 m-2">Available quantity: {finalQuantity}</p>
-      <button onClick={() => handleDelivered(id)} className="btn btn-dark mx-2">
+      <button
+        onClick={() => handleDelivered(_id)}
+        className="btn btn-dark mx-2"
+      >
         Delivered
       </button>
-      <button onClick={() => handleReStored(id)} className="btn btn-dark mx-2">
+      <button onClick={() => handleReStored(_id)} className="btn btn-dark mx-2">
         Restored
       </button>
       <button className="btn btn-dark mx-2">Remove Item</button>

@@ -10,7 +10,7 @@ const Manage = () => {
         <h1 className="text-dark text-center mt-5">Items Available</h1>
         <div className="items-container">
           {items.map((item) => (
-            <ManageItem key={item.id} item={item}></ManageItem>
+            <ManageItem key={item._id} item={item}></ManageItem>
           ))}
         </div>
       </div>

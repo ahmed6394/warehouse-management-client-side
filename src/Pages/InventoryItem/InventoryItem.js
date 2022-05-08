@@ -2,9 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const InventoryItem = ({ item }) => {
-  const { id, name, img, description, price, quanitty, supplier } = item;
+  const { _id, name, img, description, price, quanitty, supplier } = item;
   const navigate = useNavigate();
-  const navigateToItemDetail = (id) => {
+  const navigateToItemDetail = (_id) => {
     navigate("/manage");
   };
 
