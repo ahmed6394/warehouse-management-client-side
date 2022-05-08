@@ -28,7 +28,7 @@ const ManageItem = ({ item }) => {
   const handleRemove = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      const url = `http://localhost:5000/item/${id}`;
+      const url = `https://polar-beyond-45490.herokuapp.com/item/${id}`;
       fetch(url, {
         method: "DELETE",
       })

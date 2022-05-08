@@ -7,7 +7,7 @@ const AddItems = () => {
     console.log(data);
 
     //send data to server
-    const url = `http://localhost:5000/item`;
+    const url = `https://polar-beyond-45490.herokuapp.com/item`;
     fetch(url, {
       method: "POST",
       headers: {
