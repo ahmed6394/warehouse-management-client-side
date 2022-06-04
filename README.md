@@ -19,7 +19,7 @@ Here, I develope a simple warehouse management website named "Mr. Appler" . Use 
 
 ## Site link
 
--Code Link: https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-ahmed6394
+-Code Link: https://github.com/ahmed6394/warehouse-management-client-side.git
 -Live Site Link : https://mr-appler.web.app
 
 ## Server link
